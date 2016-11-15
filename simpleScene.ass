@@ -1,0 +1,27 @@
+### Scene using "simple" shader 
+options
+{
+name options
+camera "camera"
+}
+persp_camera
+{
+name camera
+matrix
+ 1 0 0 0
+ 0 1 0 0
+ 0 0 1 0
+ 0 0 30 1
+}
+sphere
+{
+ name pSphereShape2
+ center 0 0 0
+ radius 10
+ shader "simpleShader"
+}
+simple
+{
+name simpleShader
+constantColor 1 0 0
+}

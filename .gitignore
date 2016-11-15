@@ -9,6 +9,10 @@
 *.so
 *.dll
 *.dylib
+*.pdb
+*.lib
+*.ilk
+*.exp
 
 # Qt-es
 
@@ -35,4 +39,3 @@ Makefile*
 
 # QtCtreator CMake
 CMakeLists.txt.user
-
