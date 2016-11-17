@@ -1,11 +1,11 @@
-# simple                    0x00070000
- 
+# simple                    0x00070001
+
 [node simple]
-    maya.name               STRING  "mySimple"
-    maya.id                 INT      0x00070000
-    maya.classification     STRING  "shader/surface"
-    maya.output_name        STRING  "outColor"
-    maya.output_shortname   STRING  "out"
- 
-    [attr constantColor]
-        maya.name           STRING  "color"
+    maya.name               STRING  "mySimple"
+    maya.id                 INT     0x00070001
+    maya.classification     STRING  "shader/surface"
+    maya.output_name        STRING  "outColor"
+    maya.output_shortname   STRING  "out"
+
+    [attr constantColor]
+        maya.name           STRING  "color"
